@@ -46,9 +46,9 @@ const Hero = () => {
               alt='partner-logo'
             />
             <Image
-              src={'/assets/hkmm-logo.png'}
-              width={300}
-              height={80}
+              src={'/assets/silk-tea-logo.png'}
+              width={350}
+              height={240}
               alt='partner-logo'
             />
           </div>
