@@ -38,7 +38,7 @@ const Hero = () => {
           <h3 className='font-dm-sans md:text-2xl font-bold text-darkGrey mt-2'>
             Recent Partners
           </h3>
-          <div className='flex md:gap-x-12 gap-x-6'>
+          <div className='flex items-center md:gap-x-12 gap-x-6'>
             <Image
               src={'/assets/hkmm-logo.png'}
               width={300}
