@@ -3,6 +3,7 @@ import Mission from '@/components/about/Mission';
 import Pathway from '@/components/about/Pathway';
 import Specialisation from '@/components/about/Specialisation';
 import SubPageHeader from '@/components/subPageHeader';
+import Image from 'next/image';
 
 const AboutUs = () => {
   return (
