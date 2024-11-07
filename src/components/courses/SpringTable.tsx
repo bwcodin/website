@@ -28,7 +28,7 @@ const SpringTable = () => {
                 <td className="p-2">Course Period</td>
                 <td className="p-2">
                   <div>
-                    <p>JAN 15 - May 14</p>
+                    <p>Jan 15 - May 14</p>
                     <p className="text-[#5C5C5C] font-dm-mono tracking-tight">
                       No class Jan 29, Feb 5
                     </p>
@@ -104,7 +104,7 @@ const SpringTable = () => {
                 <td className="p-2">Course Period</td>
                 <td className="p-2">
                   <div>
-                    <p>FEB 8 - JUN 14</p>
+                    <p>Feb 8 - Jun 14</p>
                   </div>
                 </td>
               </tr>
@@ -182,7 +182,7 @@ const SpringTable = () => {
                 <td className="px-4 py-7 text-right">9+</td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
-                    <p>FEB 8 - JUN 14</p>
+                    <p>Feb 8 - Jun 14</p>
                   </div>
                 </td>
                 <td className="px-4 py-7 text-right">

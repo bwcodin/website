@@ -7,6 +7,7 @@ const CourseCatalog = () => {
   const [introOpen, setIntroOpen] = useState(false);
   const [webOpen, setWebOpen] = useState(false);
   const [uiOpen, setUiOpen] = useState(false);
+    const [stanfordAI, setStanfordAI] = useState(false);
   return (
     <div className='md:py-24 py-12 md:px-40 px-7 flex flex-col gap-y-4 bg-grey'>
       <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue'>
@@ -192,6 +193,61 @@ const CourseCatalog = () => {
               <li>User interactions and animations</li>
               <li>Website building with AI</li>
               <li>Build your own personal website.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* Stanford AI Playground*/}
+      <div
+        className={`${
+          !stanfordAI && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setStanfordAI(!stanfordAI)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={stanfordAI ? '/assets/down-arrow.png' : '/assets/right-arrow.png'}
+            width={16}
+            height={16}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 md:w-1/2'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans text-xl md:text-4xl font-bold'>
+              Stanford AI Playground
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight'>
+              <span className='text-beginner'>Beginner</span> • 15 Hours{' '}
+              <span className={`${!stanfordAI && 'hidden'}`}>• 2-6 Students</span>
+            </div>
+          </div>
+          <p className={`font-dm-sans md:text-2x ${!stanfordAI && 'hidden'}`}>
+            Developed by Stanford University educators, explore and dive into the future of technology and conding using a unique no-code platform
+          </p>
+        </div>
+        <div
+          className={`flex flex-col gap-y-7 font-dm-sans md:w-1/2 ${
+            !stanfordAI && 'hidden'
+          }`}
+        >
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Coding Language
+            </h3>
+            <p className='font-dm-sans md:text-2xl'>AI</p>
+          </div>
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Course Content
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5'>
+              <li>Basic AI concepts and logic</li>
+              <li>How does AI generate content?</li>
+              <li>Training AI models</li>
+              <li>AI applications in society</li>
+              <li>Neural networks</li>
+              <li>Data analysis</li>
             </ul>
           </div>
         </div>

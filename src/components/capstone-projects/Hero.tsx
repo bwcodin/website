@@ -47,8 +47,8 @@ const Hero = () => {
             />
             <Image
               src={'/assets/silk-tea-logo.png'}
-              width={350}
-              height={240}
+              width={350/2}
+              height={240/2}
               alt='partner-logo'
             />
           </div>
