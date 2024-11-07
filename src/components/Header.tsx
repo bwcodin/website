@@ -7,6 +7,9 @@ import { useState } from "react";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const isBreakPoint = useMediaQuery(768);
+    const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
   return (
     <div>
       <div className="flex justify-between w-full p-4 bg-darkGrey text-white px-8 py-6 items-center text-[24px]">
@@ -70,14 +73,15 @@ const Header = () => {
       </div>
       {menuOpen && (
         <div className="flex flex-col gap-y-4 bg-white text-darkGrey p-7 font-dm-sans text-base">
-          <Link href={"/about"}>About</Link>
-          <Link href={"/courses"}>Courses</Link>
-          <Link href={"/capstone-projects"}>Capstone Projects</Link>
+          <Link href={"/about"} onClick={handleLinkClick}>About</Link>
+          <Link href={"/courses"} onClick={handleLinkClick}>Courses</Link>
+          <Link href={"/capstone-projects"} onClick={handleLinkClick}>Capstone Projects</Link>
           <Link
             href={
               "https://forms.office.com/pages/responsepage.aspx?id=ei7wsUjqHU-vTfZCgC3vLQIHtUkOQDNGrybEhcbLu4BUREpIRTdJMjJUT0ZMQ1BPOUtMVTdWQzI5USQlQCN0PWcu&route=shorturl"
             }
             target="_blank"
+            onClick={handleLinkClick}
           >
             ↗ Contact
           </Link>
