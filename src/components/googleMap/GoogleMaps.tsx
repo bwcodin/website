@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { GoogleMapsWrapper } from "./GoogleMapsWrapper";
 import useMediaQuery from "@/hooks/useMediaQuery";
 
-const DEFAULT_CENTER = { lat: 22.2770061, lng: 114.1731009 };
+const DEFAULT_CENTER = { lat: 22.277059, lng: 114.175663 };
 const DEFAULT_ZOOM = 16;
 
 export const GoogleMaps = ({
@@ -13,6 +13,7 @@ export const GoogleMaps = ({
   locations: ReadonlyArray<google.maps.LatLngLiteral>;
 }) => {
   const isBreakPoint = useMediaQuery(768);
+  const isBreakPoint2 = useMediaQuery(480);
   const ref = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -31,8 +32,8 @@ export const GoogleMaps = ({
     <div
       ref={ref}
       style={{
-        width: isBreakPoint ? "375px" : "450px",
-        height: isBreakPoint ? "250px" : "450px",
+        width: isBreakPoint2 ? "300px" : isBreakPoint ? "375px" : "450px",
+        height: isBreakPoint2 ? "200px" : isBreakPoint ? "250px" : "450px",
         borderRadius: "25px",
       }}
     />
