@@ -84,13 +84,13 @@ const Footer = () => {
       <div className="flex flex-col gap-y-4 md:mt-0 mt-4">
         <MapComponent locations={[{ lat: 22.2770061, lng: 114.1731009 }]} />
         <p className="md:text-2xl text-base md:max-w-[350px] max-w-[260px]">
-          Unit 2204, 22/F, \nChinachem Johnston Plaza, /n178-186 Johnston Road, /nWan Chai,
+          Unit 2204, 22/F, <br />Chinachem Johnston Plaza, <br />178-186 Johnston Road, <br />Wan Chai,
           Hong Kong
         </p>
       </div>
       {isBreakPoint && (
-        <div className="md:mt-72 mt-12 md:mb-0 mb-9 md:text-2xl text-base">
-          ©2024 Bytewise Coding Academy. \nAll rights reserved.
+        <div className="md:mt-72 mt-12 md:mb-0 mb-9 md:text-l text-base">
+          ©2024 Bytewise Coding Academy. <br />All rights reserved.
         </div>
       )}
     </footer>

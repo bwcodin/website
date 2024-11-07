@@ -22,19 +22,16 @@ const UpcomingProjects = () => {
           start-to-finish in the real world.{" "}
         </p>
       </div>
-      <p className="md:text-2xl md:mt-20 mt-12">
-        Interested? Fill in the{" "}
-        <Link
-          href={
-            "https://forms.office.com/pages/responsepage.aspx?id=ei7wsUjqHU-vTfZCgC3vLQIHtUkOQDNGrybEhcbLu4BUREpIRTdJMjJUT0ZMQ1BPOUtMVTdWQzI5USQlQCN0PWcu&route=shorturl"
-          }
-          target="_blank"
-          className="underline underline-offset-[6px]"
-        >
-          ↗ inquiry form
-        </Link>
-        .
-      </p>
+      <p className='font-dm-sans md:text-2xl'>
+        Interested? {''} <br/>
+          <Link
+            className='underline underline-offset-[6px]'
+            href={"https://wa.me/85296348923"}
+            target='_blank'
+          >
+            Contact us directly on WhatsApp!
+          </Link>{' '}
+        </p>
     </div>
   );
 };

@@ -13,7 +13,7 @@ const CourseCatalog = () => {
       <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue'>
         Course Catalog
       </h2>
-      {/* BEGGINNER */}
+      {/* BEGINNER */}
       <div
         className={`${
           !introOpen && 'cursor-pointer'
@@ -156,10 +156,10 @@ const CourseCatalog = () => {
         <div className='flex flex-col gap-y-7 md:w-1/2'>
           <div className='flex flex-col gap-y-2'>
             <h3 className='font-dm-sans text-xl md:text-4xl font-bold'>
-              Web Design (UI/UX)
+              Website Design (UI/UX)
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
-              <span className='text-beginner'>Beginner</span> • 34 Hours{' '}
+              <span className='text-beginner'>Beginner</span> • 21 Hours{' '}
               <span className={`${!uiOpen && 'hidden'}`}>• 2-6 Students</span>
             </div>
           </div>
@@ -235,7 +235,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               Coding Language
             </h3>
-            <p className='font-dm-sans md:text-2xl'>AI</p>
+            <p className='font-dm-sans md:text-2xl'>Proprietary AI training blocks. No code needed!</p>
           </div>
           <div className='flex flex-col gap-y-3'>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
@@ -257,17 +257,13 @@ const CourseCatalog = () => {
           Interested in our courses? Don&apos;t see a course that interests you?
         </p>
         <p className='font-dm-sans md:text-2xl'>
-          Fill in the{' '}
           <Link
             className='underline underline-offset-[6px]'
-            href={
-              'https://forms.office.com/pages/responsepage.aspx?id=ei7wsUjqHU-vTfZCgC3vLQIHtUkOQDNGrybEhcbLu4BUREpIRTdJMjJUT0ZMQ1BPOUtMVTdWQzI5USQlQCN0PWcu&route=shorturl'
-            }
+            href={"https://wa.me/85296348923"}
             target='_blank'
           >
-            ↗ inquiry form
+            Contact us directly on WhatsApp!
           </Link>{' '}
-          or contact us directly.{' '}
         </p>
       </div>
     </div>

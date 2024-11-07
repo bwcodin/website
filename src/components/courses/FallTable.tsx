@@ -1,5 +1,6 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import React from "react";
+//fall 2024 schedule
 
 const FallTable = () => {
   const isBreakPoint = useMediaQuery(768);

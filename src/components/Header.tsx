@@ -44,16 +44,6 @@ const Header = () => {
               <Link href={"/capstone-projects"}>Capstone Projects</Link>
             </li>
             <span className="font-extralight">|</span>
-            <li>
-              <Link
-                href={
-                  "https://forms.office.com/pages/responsepage.aspx?id=ei7wsUjqHU-vTfZCgC3vLQIHtUkOQDNGrybEhcbLu4BUREpIRTdJMjJUT0ZMQ1BPOUtMVTdWQzI5USQlQCN0PWcu&route=shorturl"
-                }
-                target="_blank"
-              >
-                ↗ Contact
-              </Link>
-            </li>
             <li className="flex items-center">
               <Link
                 href={"https://wa.me/85296348923"}
@@ -66,6 +56,7 @@ const Header = () => {
                   height={31}
                   width={31}
                 />
+                &ensp; WhatsApp Contact
               </Link>
             </li>
           </ul>
