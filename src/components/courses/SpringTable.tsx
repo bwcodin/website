@@ -1,6 +1,8 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import React from "react";
 
+//spring 2024 schedule
+
 const SpringTable = () => {
   const isBreakPoint = useMediaQuery(768);
 

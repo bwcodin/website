@@ -1,5 +1,6 @@
 import useMediaQuery from "@/hooks/useMediaQuery";
 import React from "react";
+//fall 2024 schedule
 
 const FallTable = () => {
   const isBreakPoint = useMediaQuery(768);
@@ -28,7 +29,7 @@ const FallTable = () => {
                 <td className="p-2">
                   <div>
                     <p>Sep 11 - Dec 11</p>
-                    <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
+                    <p className="text-[#5C5C5C] font-dm-mono text-l tracking-tight">
                       No class Oct 14-25
                     </p>
                   </div>
@@ -66,7 +67,7 @@ const FallTable = () => {
                 <td className="p-2">
                   <div>
                     <p>Sep 13 - Dec 6</p>
-                    <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
+                    <p className="text-[#5C5C5C] font-dm-mono text-l tracking-tight">
                       No class Oct 14-25
                     </p>
                   </div>

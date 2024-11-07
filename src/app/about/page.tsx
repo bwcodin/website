@@ -11,7 +11,8 @@ const AboutUs = () => {
       <SubPageHeader title='About' />
       <Mission />
       <Pathway />
-      <div className='relative w-full md:h-[500px] h-[250px]'>
+      <Specialisation />
+      <div className='relative w-full md:h-[800px] h-[250px] mt-12'>
         <Image
           src='/assets/aboutSection.png'
           alt='Mission'
@@ -19,7 +20,6 @@ const AboutUs = () => {
           objectFit='contain'
         />
       </div>
-      <Specialisation />
       <Instructors />
     </div>
   );
