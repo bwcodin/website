@@ -235,7 +235,7 @@ const XmasTable = () => {
                 </div>
               </td>
             </tr>
-            <tr className="text-2xl font-dm-sans ">
+            <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
               <td className="px-4 py-7">
                 <p>Silk Tea Capstone Project</p>
                 <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">

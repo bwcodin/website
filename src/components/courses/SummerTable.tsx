@@ -29,7 +29,7 @@ const SummerTable = () => {
                 <td className="p-2">Course Period</td>
                 <td className="p-2">
                   <div>
-                    <p>JUN 22 - July 23</p>
+                    <p>Jun 22 - July 23</p>
                   </div>
                 </td>
               </tr>

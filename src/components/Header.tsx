@@ -68,14 +68,12 @@ const Header = () => {
           <Link href={"/courses"} onClick={handleLinkClick}>Courses</Link>
           <Link href={"/capstone-projects"} onClick={handleLinkClick}>Capstone Projects</Link>
           <Link
-            href={
-              "https://forms.office.com/pages/responsepage.aspx?id=ei7wsUjqHU-vTfZCgC3vLQIHtUkOQDNGrybEhcbLu4BUREpIRTdJMjJUT0ZMQ1BPOUtMVTdWQzI5USQlQCN0PWcu&route=shorturl"
-            }
-            target="_blank"
-            onClick={handleLinkClick}
-          >
-            ↗ Contact
-          </Link>
+                href={"https://wa.me/85296348923"}
+                target="_blank"
+                className="flex items-center"
+              >
+                WhatsApp Us!
+              </Link>
         </div>
       )}
     </div>

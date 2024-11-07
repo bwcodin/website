@@ -84,7 +84,7 @@ const Footer = () => {
       <div className="flex flex-col gap-y-4 md:mt-0 mt-4">
         <MapComponent locations={[{ lat: 22.2770061, lng: 114.1731009 }]} />
         <p className="md:text-2xl text-base md:max-w-[350px] max-w-[260px]">
-          Unit 2204, 22/F, <br />Chinachem Johnston Plaza, <br />178-186 Johnston Road, <br />Wan Chai,
+          Unit 2204, 22/F <br />Chinachem Johnston Plaza <br />178-186 Johnston Road <br />Wan Chai,
           Hong Kong
         </p>
       </div>
