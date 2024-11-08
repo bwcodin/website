@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { GoogleMapsWrapper } from "./GoogleMapsWrapper";
 import useMediaQuery from "@/hooks/useMediaQuery";
 
-const DEFAULT_CENTER = { lat: 22.277059, lng: 114.175663 };
+const DEFAULT_CENTER = { lat: 22.2770074, lng: 114.1756452 };
 const DEFAULT_ZOOM = 16;
 
 export const GoogleMaps = ({
