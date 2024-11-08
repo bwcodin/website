@@ -12,7 +12,7 @@ importers:
         specifier: ^1.1.42
         version: 1.1.42(react@18.3.1)
       next:
-        specifier: 14.2.15
+        specifier: ^14.2.15
         version: 14.2.15(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react:
         specifier: ^18
