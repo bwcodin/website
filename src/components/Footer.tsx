@@ -35,7 +35,7 @@ const Footer = () => {
             <h1 className="font-bold md:text-2xl text-base">Useful Links</h1>
             <ul className="flex flex-col md:gap-y-3 gap-y-1 md:text-2xl text-base">
               <li>
-                <Link href={"http://localhost:3001/courses"}>Schedule</Link>
+                <Link href={"/courses"}>Schedule</Link>
               </li>
               <li>
                 <Link
