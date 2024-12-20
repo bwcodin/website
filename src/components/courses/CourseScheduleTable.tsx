@@ -12,23 +12,34 @@ const CourseScheduleTable = () => {
       <div className="flex md:gap-x-10 gap-x-5 flex-wrap md:gap-y-0 gap-y-3 font-dm-mono md:text-2xl font-medium tracking-tight">
         <p
           className={
-            selectedSeason === "Xmas"
+            selectedSeason === "Spring"
               ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
               : "hover:cursor-pointer"
           }
-          onClick={() => setSelectedSeason("Xmas")}
+          onClick={() => setSelectedSeason("Spring")}
         >
           Christmas&apos;24
         </p>
         <p
           className={
-            selectedSeason === "Fall"
+            selectedSeason === "Spring"
               ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
               : "hover:cursor-pointer"
           }
-          onClick={() => setSelectedSeason("Fall")}
+          onClick={() => setSelectedSeason("Spring")}
         >
           Fall&apos;24
+        </p>
+        <p
+          className={
+            selectedSeason === "Summer"
+              ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
+              : "hover:cursor-pointer"
+          }
+          onClick={() => setSelectedSeason("Summer")}
+        >
+          Summer&apos;24
+          Spring&apos;25
         </p>
         <p
           className={

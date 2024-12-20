@@ -9,7 +9,23 @@ const UpcomingProjects = () => {
       </h2>
       <div className="border-l-2 border-l-lighBlue pl-5 flex flex-col gap-y-2">
         <h4 className="font-dm-sans md:text-2xl font-bold text-darkGrey">
-          Live Ship Tracker
+        Business Dashboard and Analysis Platform
+        </h4>
+        <p className="md:text-xl font-dm-mono tracking-tighter">
+          <span className="text-advanced">Advanced</span> •{" "}
+          <span> Spring 2025 </span> • <span>Silk Tea</span>
+        </p>
+        <p className="md:text-2xl tracking-tight">
+          Students are responsible for building a business dashboard for Silk, determine 
+          what metrics are most important and provide trend analysis for Silk management. 
+          They will be working with Deliveroo and FoodPanda APIs to extract real-time data 
+          and display it in a visual manner. This project also comes with a summer internship 
+          at Silk. {" "}
+        </p>
+      </div>
+      <div className="border-l-2 border-l-lighBlue pl-5 flex flex-col gap-y-2">
+        <h4 className="font-dm-sans md:text-2xl font-bold text-darkGrey">
+          Live Ship Tracking Exhibit
         </h4>
         <p className="md:text-xl font-dm-mono tracking-tighter">
           <span className="text-advanced">Advanced</span> •{" "}
