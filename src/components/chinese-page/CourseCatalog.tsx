@@ -9,7 +9,7 @@ const CourseCatalog = () => {
   const [stanfordAI, setStanfordAI] = useState(false);
   return (
     <div className='md:py-24 py-12 md:px-40 px-7 flex flex-col gap-y-4 bg-grey'>
-      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue'>
+      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3'>
         我们的课程
       </h2>
       {/* CAPSTONE PROJECT */}
