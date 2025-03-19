@@ -44,6 +44,10 @@ const Header = () => {
               <Link href={"/capstone-projects"}>Capstone Projects</Link>
             </li>
             <span className="font-extralight">|</span>
+            <li>
+              <Link href={"/chinese-page"}>中文</Link>
+            </li>
+            <span className="font-extralight">|</span>
             <li className="flex items-center">
               <Link
                 href={"https://wa.me/85296348923"}
@@ -56,7 +60,7 @@ const Header = () => {
                   height={31}
                   width={31}
                 />
-                &ensp; WhatsApp Contact
+                &ensp; WhatsApp
               </Link>
             </li>
           </ul>
@@ -67,6 +71,7 @@ const Header = () => {
           <Link href={"/about"} onClick={handleLinkClick}>About</Link>
           <Link href={"/courses"} onClick={handleLinkClick}>Courses</Link>
           <Link href={"/capstone-projects"} onClick={handleLinkClick}>Capstone Projects</Link>
+          <Link href={"/chinese-page"} onClick={handleLinkClick}>中文网页</Link>
           <Link
                 href={"https://wa.me/85296348923"}
                 target="_blank"
