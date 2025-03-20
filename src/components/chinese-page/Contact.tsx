@@ -13,7 +13,7 @@ const Contact = () => {
             <div className="flex flex-col items-center font-dm-sans md:text-2xl font-bold md:gap-y-8 gap-y-5">
               Wechat QR Code 
               <Image
-              src={'/assets/qr_wechat.png'}
+              src={'/assets/qr_wechat.jpg'}
               width={300}
               height={300}
               alt='wechat-logo'
