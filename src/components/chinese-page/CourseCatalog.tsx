@@ -137,7 +137,7 @@ const CourseCatalog = () => {
           </div>
         </div>
       </div>
-      <div className='mx-7'>
+      <div className='mx-7 pt-5'>
         <p className='font-dm-sans md:text-2xl'>
           看不到感兴趣的课程？想了解更多？
         </p>
