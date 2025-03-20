@@ -52,7 +52,32 @@ const CourseCatalog = () => {
               <li>讲师将讲授核心项目内容，帮助学生学习和掌握项目领域的基础知识，并酌情教授与学员所需的项目要素相关的其他材料。 </li>
               <li>学生完成产品设计以及顾客演示，导师确保程序测试通过。</li>
             </ul>
-            {/* TODO: ADD PARTNER ORGANISATIONS FOR CAPSTONE PROJECT*/}
+            <div className='flex flex-col items-center md:pt-10 pt-3 md:gap-y-15 gap-y-5'>
+              <h3 className='font-dm-sans md:text-2xl font-bold text-darkGrey mt-2'>
+                我们的合作伙伴
+              </h3>
+              <div className='grid md:grid-cols-3 grid-cols-2 gap-10 items-center'>
+              <Image
+                  src={'/assets/zha-lab-logo.jpg'}
+                  width={350}
+                  height={80}
+                  alt='partner-logo'
+                />
+                <Image
+                  src={'/assets/hkmm-logo.png'}
+                  width={300}
+                  height={80}
+                  alt='partner-logo'
+                />
+                <Image
+                  src={'/assets/silk-tea-logo-2.png'}
+                  width={150}
+                  height={80}
+                  alt='partner-logo'
+                />
+          
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,7 +142,7 @@ const CourseCatalog = () => {
         </span>
         <div className='flex flex-col gap-y-7 px-2 md:px-16'>
           <div className='flex flex-col gap-y-2'>
-            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+            <h3 className='flex flex-column font-dm-sans md:text-4xl text-xl font-bold'>
               斯坦福 AI Playground
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight pt-3'>
@@ -130,7 +155,7 @@ const CourseCatalog = () => {
               课程资料
             </h3>
             <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
-              <li>一对一或与朋友们组小班一起与我们的导师一起学习。 </li>
+              <li>一对一或与朋友们组小班与我们的导师一起学习。 </li>
               <li>以AI为初步科技的认识，慢慢深入了解编程和其他科技领域 。 </li>
               <li>在 AI Playground 中，机器学习算法和模型的组成部分都以积木的形式呈现。当你展示出对它们的理解后，就能收集到这些积木。  </li>
             </ul>
