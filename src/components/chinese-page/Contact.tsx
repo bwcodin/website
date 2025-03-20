@@ -12,18 +12,18 @@ const Contact = () => {
           <div className="flex flex-col items-center font-dm-sans md:text-2xl font-bold md:gap-y-8 gap-y-5">
             Wechat QR Code 
             <Image
-            src={'/assets/hkmm-logo.png'}
-            width={300}
-            height={80}
+            src={'/assets/qr_wechat.png'}
+            width={280}
+            height={280}
             alt='wechat-logo'
           />
           </div>
           <div className="flex flex-col items-center font-dm-sans md:text-2xl font-bold md:gap-y-8 gap-y-5">
             XHS QR Code 
             <Image
-            src={'/assets/hkmm-logo.png'}
+            src={'/assets/qr_xhs.png'}
             width={300}
-            height={80}
+            height={300}
             alt='XHS-logo'
           />
           </div>
