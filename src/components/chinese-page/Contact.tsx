@@ -14,8 +14,8 @@ const Contact = () => {
               Wechat QR Code 
               <Image
               src={'/assets/qr_wechat.png'}
-              width={280}
-              height={280}
+              width={300}
+              height={300}
               alt='wechat-logo'
             />
             </div>
