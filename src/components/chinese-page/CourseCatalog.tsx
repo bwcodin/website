@@ -29,7 +29,7 @@ const CourseCatalog = () => {
             alt='arrow'
           />
         </span>
-        <div className='flex flex-col gap-y-7 px-16'>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
           <div className='flex flex-col gap-y-2'>
             <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
               小组实践项目
@@ -44,7 +44,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               小组实践项目流程
             </h3>
-            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5 leading-[30px]'>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
               <li>学生被分成若干小组，专注于项目的一个领域（例如用户界面、后台系统、数据分析、人工智能等）。 </li>
               <li>每个小组由 2-4 名学生以及一名该领域的专家指导教师组成。 </li>
               <li>团队确定后，将在项目开始时安排常规课程（每周至少2.5-4小时，视项目难易程度而定），以满足所有学生的需求。 </li>
@@ -73,7 +73,7 @@ const CourseCatalog = () => {
             alt='arrow'
           />
         </span>
-        <div className='flex flex-col gap-y-7 px-16'>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
           <div className='flex flex-col gap-y-2'>
             <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
               一对一编程课程
@@ -88,7 +88,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               一对一编程项目流程
             </h3>
-            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5 leading-[30px]'>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
               <li>设计阶段: 学生头脑风暴，与导师共同设计项目。 </li>
               <li>技能阶段: 教师通过理论和实践案例教授编码知识。 </li>
               <li>构建阶段：学生将综合运用所学知识构建个人项目的元素，无论是用户界面、预测模型、数据库集成还是人工智能功能。  </li>
@@ -115,7 +115,7 @@ const CourseCatalog = () => {
             alt='arrow'
           />
         </span>
-        <div className='flex flex-col gap-y-7 px-16'>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
           <div className='flex flex-col gap-y-2'>
             <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
               斯坦福 AI Playground
@@ -129,7 +129,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               课程资料
             </h3>
-            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5 leading-[30px]'>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
               <li>一对一或与朋友们组小班一起与我们的导师一起学习。 </li>
               <li>以AI为初步科技的认识，慢慢深入了解编程和其他科技领域 。 </li>
               <li>在 AI Playground 中，机器学习算法和模型的组成部分都以积木的形式呈现。当你展示出对它们的理解后，就能收集到这些积木。  </li>

@@ -71,7 +71,7 @@ const Header = () => {
           <Link href={"/about"} onClick={handleLinkClick}>About</Link>
           <Link href={"/courses"} onClick={handleLinkClick}>Courses</Link>
           <Link href={"/capstone-projects"} onClick={handleLinkClick}>Capstone Projects</Link>
-          <Link href={"/chinese-page"} onClick={handleLinkClick}>中文网页</Link>
+          <Link href={"/chinese-page"} onClick={handleLinkClick}>中文</Link>
           <Link
                 href={"https://wa.me/85296348923"}
                 target="_blank"
