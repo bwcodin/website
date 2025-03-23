@@ -1,7 +1,7 @@
-import About from "@/components/chinese-page/About";
-import CourseCatalog from "@/components/chinese-page/CourseCatalog";
-import Instructors from "@/components/chinese-page/Instructors";
-import Contact from "@/components/chinese-page/Contact";
+import About from "@/components/lang-cn/About";
+import CourseCatalog from "@/components/lang-cn/CourseCatalog";
+import Instructors from "@/components/lang-cn/Instructors";
+import Contact from "@/components/lang-cn/Contact";
 
 const ChinesePage = () => {
   return (
