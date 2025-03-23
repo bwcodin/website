@@ -166,15 +166,6 @@ const CourseCatalog = () => {
         <p className='font-dm-sans md:text-2xl'>
           看不到感兴趣的课程？想了解更多？
         </p>
-        <p className='font-dm-sans md:text-2xl'>
-          <Link
-            className='underline underline-offset-[6px]'
-            href={"https://wa.me/85296348923"}
-            target='_blank'
-          >
-            在微信联系我们！
-          </Link>{' '}
-        </p>
       </div>
     </div>
   );
