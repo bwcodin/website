@@ -45,7 +45,7 @@ const Header = () => {
             </li>
             <span className="font-extralight">|</span>
             <li>
-              <Link href={"/chinese-page"}>中文</Link>
+              <Link href={"/lang-cn"}>中文</Link>
             </li>
             <span className="font-extralight">|</span>
             <li className="flex items-center">
