@@ -18,7 +18,7 @@ const CourseScheduleTable = () => {
           }
           onClick={() => setSelectedSeason("Xmas")}
         >
-          Christmas&apos;24
+          Summer&apos;25
         </p>
         <p
           className={
