@@ -210,7 +210,7 @@ const SummerTable = () => {
               <td className="px-4 py-7">
                 <p>AI Explorers</p>
               </td>
-              <td className="px-4 py-7 text-right">9-12</td>
+              <td className="px-4 py-7 text-right">10+</td>
               <td className="px-4 py-7 text-right">
                 <div className="flex flex-col gap-y-3">
                   <p>July 7 - July 11</p>
@@ -226,7 +226,7 @@ const SummerTable = () => {
               <td className="px-4 py-7">
                 <p>Digital Dangers</p>
               </td>
-              <td className="px-4 py-7 text-right">12+</td>
+              <td className="px-4 py-7 text-right">10+</td>
               <td className="px-4 py-7 text-right">
                 <div className="flex flex-col gap-y-3">
                   <p>July 14 - July 18</p>
@@ -242,7 +242,7 @@ const SummerTable = () => {
               <td className="px-4 py-7">
                 <p>AI Explorers</p>
               </td>
-              <td className="px-4 py-7 text-right">9-12</td>
+              <td className="px-4 py-7 text-right">10+</td>
               <td className="px-4 py-7 text-right">
                 <div className="flex flex-col gap-y-3">
                   <p>July 28 - Aug 1</p>
@@ -258,7 +258,7 @@ const SummerTable = () => {
               <td className="px-4 py-7">
                 <p>Digital Dangers</p>
               </td>
-              <td className="px-4 py-7 text-right">12+</td>
+              <td className="px-4 py-7 text-right">10+</td>
               <td className="px-4 py-7 text-right">
                 <div className="flex flex-col gap-y-3">
                   <p>Aug 4 - Aug 8</p>
