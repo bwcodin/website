@@ -5,9 +5,11 @@ import { useState } from 'react';
 
 const CourseCatalog = () => {
   const [introOpen, setIntroOpen] = useState(false);
+  const [explorerOpen, setExplorerOpen] = useState(false);
+  const [dangersOpen, setDangersOpen] = useState(false);
   const [webOpen, setWebOpen] = useState(false);
   const [uiOpen, setUiOpen] = useState(false);
-    const [stanfordAI, setStanfordAI] = useState(false);
+  const [stanfordAI, setStanfordAI] = useState(false);
   return (
     <div className='md:py-24 py-12 md:px-40 px-7 flex flex-col gap-y-4 bg-grey'>
       <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue'>
@@ -81,14 +83,14 @@ const CourseCatalog = () => {
       {/* AI BUILDER */}
       <div
         className={`${
-          !introOpen && 'cursor-pointer'
+          !explorerOpen && 'cursor-pointer'
         } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
-        onClick={() => setIntroOpen(!introOpen)}
+        onClick={() => setExplorerOpen(!explorerOpen)}
       >
         <span className='absolute top-8 right-12 cursor-pointer'>
           <Image
             src={
-              introOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+              explorerOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
             }
             width={16}
             height={16}
@@ -98,16 +100,16 @@ const CourseCatalog = () => {
         <div className='flex flex-col gap-y-7 md:w-1/2'>
           <div className='flex flex-col gap-y-2'>
             <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
-              AI EXPLORER
+              AI Explorer
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
               <span className='text-beginner'>Beginner</span> • 12 Hours{' '}
-              <span className={`${!introOpen && 'hidden'}`}>
+              <span className={`${!explorerOpen && 'hidden'}`}>
                 • 2-6 Students
               </span>
             </div>
           </div>
-          <p className={`font-dm-sans md:text-2xl ${!introOpen && 'hidden'}`}>
+          <p className={`font-dm-sans md:text-2xl ${!explorerOpen && 'hidden'}`}>
           Build without code. 
           <br/>
           Turn ideas into reality with AI. Using the latest technologies developed in Silicon Valley, find out how much more there is to AI than just Chat-GPT.  
@@ -117,7 +119,7 @@ const CourseCatalog = () => {
         </div>
         <div
           className={`flex flex-col gap-y-7 font-dm-sans md:w-1/2 ${
-            !introOpen && 'hidden'
+            !explorerOpen && 'hidden'
           }`}
         >
           <div className='flex flex-col gap-y-3'>
@@ -142,14 +144,14 @@ const CourseCatalog = () => {
       {/* DIGITAL DANGERS */}
       <div
         className={`${
-          !introOpen && 'cursor-pointer'
+          !dangersOpen && 'cursor-pointer'
         } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
-        onClick={() => setIntroOpen(!introOpen)}
+        onClick={() => setDangersOpen(!dangersOpen)}
       >
         <span className='absolute top-8 right-12 cursor-pointer'>
           <Image
             src={
-              introOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+              dangersOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
             }
             width={16}
             height={16}
@@ -163,12 +165,12 @@ const CourseCatalog = () => {
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
               <span className='text-beginner'>Beginner</span> • 10 Hours{' '}
-              <span className={`${!introOpen && 'hidden'}`}>
+              <span className={`${!dangersOpen && 'hidden'}`}>
                 • 2-6 Students
               </span>
             </div>
           </div>
-          <p className={`font-dm-sans md:text-2xl ${!introOpen && 'hidden'}`}>
+          <p className={`font-dm-sans md:text-2xl ${!dangersOpen && 'hidden'}`}>
             Shield your online footprint!
             <br/>
             From Roblox scams to social media deepfakes to credit card theft, the internet is a dangerous place. One wrong click and your images and personal details could be public forever!  
@@ -178,7 +180,7 @@ const CourseCatalog = () => {
         </div>
         <div
           className={`flex flex-col gap-y-7 font-dm-sans md:w-1/2 ${
-            !introOpen && 'hidden'
+            !dangersOpen && 'hidden'
           }`}
         >
           <div className='flex flex-col gap-y-3'>
