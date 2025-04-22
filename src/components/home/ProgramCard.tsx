@@ -4,6 +4,7 @@ import Link from 'next/link';
 const ProgramCard = ({
   image,
   title,
+  path,
 }: {
   image: string;
   title: string;
@@ -11,7 +12,7 @@ const ProgramCard = ({
 }) => {
   return (
     <Link
-      href={'/'}
+      href={path} //changed this from '/' so it is dynamic 
       className=' w-full md:h-[18.75rem] h-[175px] relative font-dm-sans rounded-2xl group'
     >
       <Image

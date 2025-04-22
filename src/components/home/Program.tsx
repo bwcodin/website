@@ -1,5 +1,6 @@
 import ProgramCard from './ProgramCard';
 
+
 const Program = () => {
   return (
     <div className='flex flex-col py-20 gap-y-12 mx-5 items-center'>
