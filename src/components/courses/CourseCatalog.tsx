@@ -289,7 +289,7 @@ const CourseCatalog = () => {
               <span className={`${!uiOpen && 'hidden'}`}>• 2-6 Students</span>
             </div>
           </div>
-          <p className={`font-dm-sans md:text-2x ${!uiOpen && 'hidden'}`}>
+          <p className={`font-dm-sans md:text-4xl text-xl font-bold`}>
             Combine coding and creativity to develop a personal website. Find
             out how to build a website, create good designs, animate content,
             and effectively use interactive elements. No prior coding experience
@@ -348,7 +348,7 @@ const CourseCatalog = () => {
               <span className={`${!stanfordAI && 'hidden'}`}>• 2-6 Students</span>
             </div>
           </div>
-          <p className={`font-dm-sans md:text-2x ${!stanfordAI && 'hidden'}`}>
+          <p className={`font-dm-sans md:text-4xl text-xl font-bold`}>
             Developed by Stanford University educators, explore and dive into the future of technology and conding using a unique no-code platform
           </p>
         </div>

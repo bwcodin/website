@@ -282,7 +282,7 @@ const SummerTable = () => {
                 <div className="flex flex-col gap-y-3">
                   <p>July 21 - Aug 1</p>
                   <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                    6 days
+                    10 days
                   </p>
                 </div>
               </td>

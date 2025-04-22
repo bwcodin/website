@@ -113,9 +113,6 @@ const SpringTable = () => {
               <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
                 <td className="px-4 py-7">
                   <p>Introduction to Coding</p>
-                  <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                    Weekday session
-                  </p>
                 </td>
                 <td className="px-4 py-7 text-right">12+</td>
                 <td className="px-4 py-7 text-right">
@@ -136,9 +133,6 @@ const SpringTable = () => {
               <tr className="text-2xl font-dm-sans ">
                 <td className="px-4 py-7">
                   <p>Introduction to Coding</p>
-                  <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                    Weekend session
-                  </p>
                 </td>
                 <td className="px-4 py-7 text-right">9+</td>
                 <td className="px-4 py-7 text-right">
