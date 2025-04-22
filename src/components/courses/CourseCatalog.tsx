@@ -36,7 +36,7 @@ const CourseCatalog = () => {
               Introduction to Coding
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
-              <span className='text-beginner'>Beginner</span> • 32 Hours{' '}
+              <span className='text-beginner'>Beginner</span> • 30 Hours{' '}
               <span className={`${!introOpen && 'hidden'}`}>
                 • 2-6 Students
               </span>
@@ -46,7 +46,9 @@ const CourseCatalog = () => {
             Get started with coding following our customized curriculum! Learn
             the basics of coding and its limitless applications. Learn how to
             write basic programs that can solve math problems, manipulate words,
-            and draw. No prior coding experience necessary.{' '}
+            and draw. No prior coding experience necessary.{' '} 
+            <br/>
+            This course is split into two sections (I and II) for scheduling purposes. 
           </p>
         </div>
         <div
@@ -72,6 +74,128 @@ const CourseCatalog = () => {
               <li>Simple data structures.</li>
               <li>Drawing with Python libraries.</li>
               <li>Code your own game.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* AI BUILDER */}
+      <div
+        className={`${
+          !introOpen && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setIntroOpen(!introOpen)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={
+              introOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+            }
+            width={16}
+            height={16}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 md:w-1/2'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+              AI EXPLORER
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight'>
+              <span className='text-beginner'>Beginner</span> • 12 Hours{' '}
+              <span className={`${!introOpen && 'hidden'}`}>
+                • 2-6 Students
+              </span>
+            </div>
+          </div>
+          <p className={`font-dm-sans md:text-2xl ${!introOpen && 'hidden'}`}>
+          Build without code. 
+          <br/>
+          Turn ideas into reality with AI. Using the latest technologies developed in Silicon Valley, find out how much more there is to AI than just Chat-GPT.  
+          <br/>
+          No coding required – build and deploy a website and machine learning model all on your own! Perfect for beginners getting started on a tech journey.   
+          </p>
+        </div>
+        <div
+          className={`flex flex-col gap-y-7 font-dm-sans md:w-1/2 ${
+            !introOpen && 'hidden'
+          }`}
+        >
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Coding Language
+            </h3>
+            <p className='font-dm-sans md:text-2xl'>Light HTML/CSS, Javascript</p>
+          </div>
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Course Content
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5'>
+              <li>Design, create and launch a fully customised website on any topic of your choice</li>
+              <li>Discover what the future of AI is – can robots have emotions? </li>
+              <li>Generate videos, images and music with AI tools </li>
+              <li>Create a self-learning model which can identify sounds and human poses</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* DIGITAL DANGERS */}
+      <div
+        className={`${
+          !introOpen && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setIntroOpen(!introOpen)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={
+              introOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+            }
+            width={16}
+            height={16}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 md:w-1/2'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+              Digital Dangers
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight'>
+              <span className='text-beginner'>Beginner</span> • 10 Hours{' '}
+              <span className={`${!introOpen && 'hidden'}`}>
+                • 2-6 Students
+              </span>
+            </div>
+          </div>
+          <p className={`font-dm-sans md:text-2xl ${!introOpen && 'hidden'}`}>
+            Shield your online footprint!
+            <br/>
+            From Roblox scams to social media deepfakes to credit card theft, the internet is a dangerous place. One wrong click and your images and personal details could be public forever!  
+            <br/>
+            Join us to learn the mindset and skills of a hacker to improve your internet awareness! 
+          </p>
+        </div>
+        <div
+          className={`flex flex-col gap-y-7 font-dm-sans md:w-1/2 ${
+            !introOpen && 'hidden'
+          }`}
+        >
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Coding Language
+            </h3>
+            <p className='font-dm-sans md:text-2xl'>bash</p>
+          </div>
+          <div className='flex flex-col gap-y-3'>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              Course Content
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-10 px-5'>
+              <li>Prevent credit card and personal information theft</li>
+              <li>Remotely access other computers and perform simple manipulations</li>
+              <li>Learn methods that hackers use to access your computer  </li>
+              <li>Install and use a VPN and firewall to protect your digital information </li>
             </ul>
           </div>
         </div>
