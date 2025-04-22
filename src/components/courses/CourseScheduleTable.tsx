@@ -6,7 +6,7 @@ import FallTable from "./FallTable";
 import XmasTable from "./XmasTable";
 
 const CourseScheduleTable = () => {
-  const [selectedSeason, setSelectedSeason] = useState("Xmas");
+  const [selectedSeason, setSelectedSeason] = useState("Summer");
   return (
     <div className="flex flex-col gap-y-8 text-darkGrey">
       <div className="flex md:gap-x-10 gap-x-5 flex-wrap md:gap-y-0 gap-y-3 font-dm-mono md:text-2xl font-medium tracking-tight">
@@ -16,7 +16,7 @@ const CourseScheduleTable = () => {
               ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
               : "hover:cursor-pointer"
           }
-          onClick={() => setSelectedSeason("Xmas")}
+          onClick={() => setSelectedSeason("Summer")}
         >
           Summer&apos;25
         </p>
@@ -29,6 +29,16 @@ const CourseScheduleTable = () => {
           onClick={() => setSelectedSeason("Spring")}
         >
           Spring&apos;25
+        </p>
+      <p
+          className={
+            selectedSeason === "Fall"
+              ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
+              : "hover:cursor-pointer"
+          }
+          onClick={() => setSelectedSeason("Fall")}
+        >
+          Fall&apos;25
         </p>
       </div>
       {selectedSeason === "Xmas" && <XmasTable />}
