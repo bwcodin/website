@@ -126,7 +126,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               Coding Language
             </h3>
-            <p className='font-dm-sans md:text-2xl'>Light HTML/CSS, Javascript</p>
+            <p className='font-dm-sans md:text-2xl'>Basic HTML/CSS, Javascript</p>
           </div>
           <div className='flex flex-col gap-y-3'>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
@@ -187,7 +187,7 @@ const CourseCatalog = () => {
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               Coding Language
             </h3>
-            <p className='font-dm-sans md:text-2xl'>bash</p>
+            <p className='font-dm-sans md:text-2xl'>Basic bash</p>
           </div>
           <div className='flex flex-col gap-y-3'>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
