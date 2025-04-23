@@ -43,7 +43,7 @@ const CourseCatalog = () => {
             </div>
           </div>
           <div className={`flex flex-col gap-y-3 font-dm-sans ${!explorerOpen && 'hidden'}`}>
-            <p className='font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
+            <p className='font-dm-sans md:text-2xl md:px-8 leading-[30px]'>
               编码语言：基础的HTML/CSS、Javascript 
             </p>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
@@ -87,6 +87,9 @@ const CourseCatalog = () => {
             </div>
           </div>
           <div className={`flex flex-col gap-y-3 font-dm-sans ${!dangersOpen && 'hidden'}`}>
+            <p className='font-dm-sans md:text-2xl md:px-8 leading-[30px]'>
+              编码语言：基础的bash 
+            </p>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               课程内容
             </h3>
@@ -128,6 +131,9 @@ const CourseCatalog = () => {
             </div>
           </div>
           <div className={`flex flex-col gap-y-3 font-dm-sans ${!introOpen && 'hidden'}`}>
+            <p className='font-dm-sans md:text-2xl md:px-8 leading-[30px]'>
+              编码语言：Python
+            </p>
             <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
               课程内容
             </h3>
@@ -142,7 +148,7 @@ const CourseCatalog = () => {
           </div>
         </div>
       </div>
-      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3'>
+      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue py-3'>
         常规课程
       </h2>
       {/* CAPSTONE PROJECT */}
