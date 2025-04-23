@@ -6,10 +6,60 @@ const CourseCatalog = () => {
   const [capstoneOpen, setCapstoneOpen] = useState(false);
   const [oneOpen, setOneOpen] = useState(false);
   const [stanfordAI, setStanfordAI] = useState(false);
-  return (
+  const [explorerOpen, setExplorerOpen] = useState(false);
+  const [dangersOpen, setDangersOpen] = useState(false);
+  const [introOpen, setIntroOpen] = useState(false);
+  return (    
     <div className='md:py-24 py-12 md:px-40 px-7 flex flex-col gap-y-4 bg-grey'>
       <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3'>
-        我们的课程
+        2025 暑期课程
+      </h2>
+      {/* AI EXPLORERS */}
+      <div
+        className={`${
+          !explorerOpen && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setExplorerOpen(!explorerOpen)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={
+              explorerOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+            }
+            width={24}
+            height={24}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+              AI Explorer – 人工智能探索者
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight pt-3'>
+              <span className='text-beginner'>
+              学生将了解人工智能如何影响我们的日常生活，如何塑造我们的未来，通过学习各种类型的人工智能及其使用案例，亲手训练图像识别模型，创建零编码网站！
+              </span>
+            </div>
+          </div>
+          <div className={`flex flex-col gap-y-3 font-dm-sans ${!explorerOpen && 'hidden'}`}>
+            <p className='font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
+              编码语言：基础的HTML/CSS、Javascript 
+            </p>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              课程内容：
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
+              <li>设计、创建并发布一个网站，内容可任意选择  </li>
+              <li>探索人工智能的未来--机器人会有情感吗？  </li>
+              <li>使用人工智能工具生成视频、图像和音乐  </li>
+              <li>创建可识别声音和姿势的自学模型  </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3'>
+        常规课程
       </h2>
       {/* CAPSTONE PROJECT */}
       <div
