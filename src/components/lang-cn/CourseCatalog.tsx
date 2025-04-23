@@ -148,7 +148,7 @@ const CourseCatalog = () => {
           </div>
         </div>
       </div>
-      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue py-3'>
+      <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3 pt-6'>
         常规课程
       </h2>
       {/* CAPSTONE PROJECT */}
