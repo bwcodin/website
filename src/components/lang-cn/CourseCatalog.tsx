@@ -58,6 +58,90 @@ const CourseCatalog = () => {
           </div>
         </div>
       </div>
+      {/* DIGITAL DANGERS */}
+      <div
+        className={`${
+          !dangersOpen && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setDangersOpen(!dangersOpen)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={
+              dangersOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+            }
+            width={24}
+            height={24}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+              Digital Dangers – 网络安全小黑客
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight pt-3'>
+              <span className='text-beginner'>
+                本课程将会介绍大数据和编码基础，通过黑客和网络病毒等真实案例，讲解网络安全的相关知识。学生将会认识到互联网上的安全隐患、 病毒、大数据等威胁，以及其背后的运行逻辑。  
+              </span>
+            </div>
+          </div>
+          <div className={`flex flex-col gap-y-3 font-dm-sans ${!dangersOpen && 'hidden'}`}>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              课程内容
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
+              <li>如何防止信用卡和个人信息被盗  </li>
+              <li>远程访问其他计算机并执行简单操作 </li>
+              <li>学习黑客访问计算机的方法  </li>
+              <li>安装并使用 VPN 和防火墙来保护您的数字信息</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* INTRO TO CODING */}
+      <div
+        className={`${
+          !introOpen && 'cursor-pointer'
+        } bg-white text-darkGrey p-7 flex md:flex-row flex-col gap-x-20 rounded-2xl relative`}
+        onClick={() => setIntroOpen(!introOpen)}
+      >
+        <span className='absolute top-8 right-12 cursor-pointer'>
+          <Image
+            src={
+              introOpen ? '/assets/down-arrow.png' : '/assets/right-arrow.png'
+            }
+            width={24}
+            height={24}
+            alt='arrow'
+          />
+        </span>
+        <div className='flex flex-col gap-y-7 px-2 md:px-16'>
+          <div className='flex flex-col gap-y-2'>
+            <h3 className='font-dm-sans md:text-4xl text-xl font-bold'>
+              Intro to Coding – 编程入门
+            </h3>
+            <div className='font-dm-mono md:text-2xl tracking-tight pt-3'>
+              <span className='text-beginner'>
+                通过我们定制的课程，学生将学习编码的基础知识及其应用，如何使用编码解决数学问题、操纵单词和绘画。本课程分为两部分（I和II），学生不需要任何编码经验和基础。
+              </span>
+            </div>
+          </div>
+          <div className={`flex flex-col gap-y-3 font-dm-sans ${!introOpen && 'hidden'}`}>
+            <h3 className='md:text-2xl font-bold text-bytewiseBlue'>
+              课程内容
+            </h3>
+            <ul className='list-disc font-dm-sans md:text-2xl md:px-8 pl-5 leading-[30px]'>
+              <li>数据的类型  </li>
+              <li>运算符和二进制逻辑</li>
+              <li>IF、IF-ELSE、ELSE-IF 语句   </li>
+              <li>简单数据结构</li>
+              <li>使用 Python 库绘图    </li>
+              <li>编写自己的游戏代码</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <h2 className='font-dm-sans md:text-4xl text-xl font-bold text-bytewiseBlue pb-3'>
         常规课程
       </h2>
