@@ -80,7 +80,7 @@ const CourseCatalog = () => {
           </div>
         </div>
       </div>
-      {/* AI BUILDER */}
+      {/* AI EXPLORER */}
       <div
         className={`${
           !explorerOpen && 'cursor-pointer'
@@ -103,7 +103,7 @@ const CourseCatalog = () => {
               AI Explorer
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
-              <span className='text-beginner'>Beginner</span> • 12 Hours{' '}
+              <span className='text-beginner'>Beginner</span> • 15 Hours{' '}
               <span className={`${!explorerOpen && 'hidden'}`}>
                 • 2-6 Students
               </span>
@@ -164,7 +164,7 @@ const CourseCatalog = () => {
               Digital Dangers
             </h3>
             <div className='font-dm-mono md:text-2xl tracking-tight'>
-              <span className='text-beginner'>Beginner</span> • 10 Hours{' '}
+              <span className='text-beginner'>Beginner</span> • 12 Hours{' '}
               <span className={`${!dangersOpen && 'hidden'}`}>
                 • 2-6 Students
               </span>
