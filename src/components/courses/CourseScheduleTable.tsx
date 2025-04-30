@@ -30,6 +30,16 @@ const CourseScheduleTable = () => {
         >
           Spring&apos;25
         </p>
+        <p
+          className={
+            selectedSeason === "Fall"
+              ? "underline underline-offset-[6px] md:decoration-[6px] decoration-2 hover:cursor-pointer"
+              : "hover:cursor-pointer"
+          }
+          onClick={() => setSelectedSeason("Fall")}
+        >
+          Fall&apos;25
+        </p>
       </div>
       {selectedSeason === "Xmas" && <XmasTable />}
       {selectedSeason === "Spring" && <SpringTable />}

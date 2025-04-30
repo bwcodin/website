@@ -15,60 +15,22 @@ const FallTable = () => {
                   colSpan={2}
                   className="text-left p-2 underline underline-offset-4"
                 >
-                  Website Design (UI/UX)
+                  Intro to Coding I
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="p-2">Age</td>
-                <td className="p-2">12+</td>
+                <td className="p-2">11+</td>
               </tr>
               <tr className="bg-[#EEF0F6]">
                 <td className="p-2">Course Period</td>
                 <td className="p-2">
                   <div>
-                    <p>Sep 11 - Dec 11</p>
+                    <p>Aug 26 - Sep 27</p>
                     <p className="text-[#5C5C5C] font-dm-mono text-l tracking-tight">
-                      No class Oct 14-25
-                    </p>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2">Time</td>
-                <td className="p-2">
-                  <div>
-                    <p>Wed: 5:00-6:30 PM</p>
-                    <p>Fri: 5:00-6:30 PM</p>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table>
-            <thead className="w-full">
-              <tr className="bg-lighBlue">
-                <th
-                  colSpan={2}
-                  className="text-left p-2 underline underline-offset-4"
-                >
-                  Introduction to Coding
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="p-2">Age</td>
-                <td className="p-2">12+</td>
-              </tr>
-              <tr className="bg-[#EEF0F6]">
-                <td className="p-2">Course Period</td>
-                <td className="p-2">
-                  <div>
-                    <p>Sep 13 - Dec 6</p>
-                    <p className="text-[#5C5C5C] font-dm-mono text-l tracking-tight">
-                      No class Oct 14-25
+                      
                     </p>
                   </div>
                 </td>
@@ -78,7 +40,7 @@ const FallTable = () => {
                 <td className="p-2">
                   <div>
                     <p>Tue: 5:00-6:30 PM</p>
-                    <p>Fri: 3:00-4:30 PM</p>
+                    <p>Sat: 1:30-3:00 PM</p>
                   </div>
                 </td>
               </tr>
@@ -91,20 +53,20 @@ const FallTable = () => {
                   colSpan={2}
                   className="text-left p-2 underline underline-offset-4"
                 >
-                  Introduction to Coding
+                  Digital Dangers
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="p-2">Age</td>
-                <td className="p-2">9-12</td>
+                <td className="p-2">10+</td>
               </tr>
               <tr className="bg-[#EEF0F6]">
                 <td className="p-2">Course Period</td>
                 <td className="p-2">
                   <div>
-                    <p>Sep 14 - Dec 7</p>
+                    <p>Aug 20 - Sep 4</p>
                   </div>
                 </td>
               </tr>
@@ -112,7 +74,75 @@ const FallTable = () => {
                 <td className="p-2">Time</td>
                 <td className="p-2">
                   <div>
-                    <p>Sat: 10:30-12:30 PM</p>
+                    <p>Wed: 5:00-7:00 PM</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead className="w-full">
+              <tr className="bg-lighBlue">
+                <th
+                  colSpan={2}
+                  className="text-left p-2 underline underline-offset-4"
+                >
+                  Digital Dangers
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-2">Age</td>
+                <td className="p-2">10+</td>
+              </tr>
+              <tr className="bg-[#EEF0F6]">
+                <td className="p-2">Course Period</td>
+                <td className="p-2">
+                  <div>
+                    <p>Aug 20 - Sep 4</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2">Time</td>
+                <td className="p-2">
+                  <div>
+                    <p>Fri: 4:30-6:30 PM</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table>
+            <thead className="w-full">
+              <tr className="bg-lighBlue">
+                <th
+                  colSpan={2}
+                  className="text-left p-2 underline underline-offset-4"
+                >
+                  AI Explorers
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-2">Age</td>
+                <td className="p-2">10+</td>
+              </tr>
+              <tr className="bg-[#EEF0F6]">
+                <td className="p-2">Course Period</td>
+                <td className="p-2">
+                  <div>
+                    <p>Aug 21 - Oct 2</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2">Time</td>
+                <td className="p-2">
+                  <div>
+                    <p>Thurs: 5:30-7:30 PM</p>
                   </div>
                 </td>
               </tr>
@@ -132,62 +162,65 @@ const FallTable = () => {
             </thead>
             <tbody>
               <tr className="text-2xl font-dm-sans ">
-                <td className="px-4 py-7">Website Design (UI/UX)</td>
-                <td className="px-4 py-7 text-right">12+</td>
+                <td className="px-4 py-7">Intro to Coding I</td>
+                <td className="px-4 py-7 text-right">11+</td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
-                    <p>Sep 11 - Dec 11</p>
-                    <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                      No class Oct 14-25
-                    </p>
-                  </div>
-                </td>
-                <td className="px-4 py-7 text-right">
-                  <div className="flex flex-col gap-y-3">
-                    <p>Wed: 5:00-6:30 PM</p>
-                    <p>Fri: 5:00-6:30 PM</p>
-                  </div>
-                </td>
-              </tr>
-              <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
-                <td className="px-4 py-7">
-                  <p>Introduction to Coding</p>
-                  <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                    Python I & II
-                  </p>
-                </td>
-                <td className="px-4 py-7 text-right">12+</td>
-                <td className="px-4 py-7 text-right">
-                  <div className="flex flex-col gap-y-3">
-                    <p>Sep 13 - Dec 6</p>
-                    <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                      No class Oct 14-25
-                    </p>
+                    <p>Aug 26 - Sep 27</p>
                   </div>
                 </td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
                     <p>Tue: 5:00-6:30 PM</p>
-                    <p>Fri: 3:00-4:30 PM</p>
+                    <p>Sat: 1:30-3:00 PM</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
+                <td className="px-4 py-7">
+                  <p>Digital Dangers</p>                  
+                </td>
+                <td className="px-4 py-7 text-right">10+</td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>Aug 20 - Sep 4</p>
+                  </div>
+                </td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>Wed: 5:00-7:00 PM</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
+                <td className="px-4 py-7">
+                  <p>Digital Dangers</p>                  
+                </td>
+                <td className="px-4 py-7 text-right">10+</td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>Aug 20 - Sep 4</p>
+                  </div>
+                </td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>Fri: 4:30-6:00 PM</p>
                   </div>
                 </td>
               </tr>
               <tr className="text-2xl font-dm-sans ">
                 <td className="px-4 py-7">
-                  <p>Introduction to Coding</p>
-                  <p className="text-[#5C5C5C] font-dm-mono text-xl tracking-tight">
-                    Juniors
-                  </p>
+                  <p>AI Explorers</p>
                 </td>
                 <td className="px-4 py-7 text-right">9-12</td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
-                    <p>Sep 14 - Dec 7</p>
+                    <p>Aug 21 - Oct 2</p>
                   </div>
                 </td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
-                    <p>Sat: 10:30-12:30 PM</p>
+                    <p>Thurs: 5:30-7:30 PM</p>
                   </div>
                 </td>
               </tr>
