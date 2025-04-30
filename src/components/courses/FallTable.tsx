@@ -148,6 +148,40 @@ const FallTable = () => {
               </tr>
             </tbody>
           </table>
+          <table>
+            <thead className="w-full">
+              <tr className="bg-lighBlue">
+                <th
+                  colSpan={2}
+                  className="text-left p-2 underline underline-offset-4"
+                >
+                  Columbia Capstone Project
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-2">Age</td>
+                <td className="p-2">12+</td>
+              </tr>
+              <tr className="bg-[#EEF0F6]">
+                <td className="p-2">Course Period</td>
+                <td className="p-2">
+                  <div>
+                    <p>August - December</p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2">Time</td>
+                <td className="p-2">
+                  <div>
+                    <p>Please contact us for more details</p>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </>
       ) : (
         <>
@@ -212,7 +246,7 @@ const FallTable = () => {
                 <td className="px-4 py-7">
                   <p>AI Explorers</p>
                 </td>
-                <td className="px-4 py-7 text-right">9-12</td>
+                <td className="px-4 py-7 text-right">10+</td>
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
                     <p>Aug 21 - Oct 2</p>
@@ -221,6 +255,22 @@ const FallTable = () => {
                 <td className="px-4 py-7 text-right">
                   <div className="flex flex-col gap-y-3">
                     <p>Thurs: 5:30-7:30 PM</p>
+                  </div>
+                </td>
+              </tr>
+              <tr className="text-2xl font-dm-sans ">
+                <td className="px-4 py-7">
+                  <p>Columbia Capstone Project</p>
+                </td>
+                <td className="px-4 py-7 text-right">12+</td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>August - December</p>
+                  </div>
+                </td>
+                <td className="px-4 py-7 text-right">
+                  <div className="flex flex-col gap-y-3">
+                    <p>Please contact us for more details.</p>
                   </div>
                 </td>
               </tr>
