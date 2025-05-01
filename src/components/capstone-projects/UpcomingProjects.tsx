@@ -12,7 +12,7 @@ const UpcomingProjects = () => {
         Medical AI Imaging and Analysis Tool
         </h4>
         <p className="md:text-xl font-dm-mono tracking-tighter">
-          <span> Summer/Fall 2025 </span> • <span>Zha Lab at Columbia University</span>
+          <span> Summer/Fall 2025 </span> • <span className="text-advanced">Zha Lab at Columbia University</span>
         </p>
         <p className="md:text-2xl tracking-tight">
           Medical research involves vast amounts of data, processing cell images and drawing conclusions with it. 
@@ -25,7 +25,7 @@ const UpcomingProjects = () => {
         Business Dashboard and Analysis Platform
         </h4>
         <p className="md:text-xl font-dm-mono tracking-tighter">
-          <span> Spring 2025 </span> • <span>Silk Tea</span>
+          <span> Spring 2025 </span> • <span className="text-advanced">Silk Tea</span>
         </p>
         <p className="md:text-2xl tracking-tight">
           Students are responsible for building a business dashboard for Silk, determine 
@@ -40,8 +40,7 @@ const UpcomingProjects = () => {
           Live Ship Tracking Exhibit
         </h4>
         <p className="md:text-xl font-dm-mono tracking-tighter">
-          <span className="text-advanced">Advanced</span> •{" "}
-          <span> Fall 2024 </span> • <span>Hong Kong Maritime Museum</span>
+          <span> Fall 2024 </span> • <span className="text-advanced">Hong Kong Maritime Museum</span>
         </p>
         <p className="md:text-2xl tracking-tight">
           Students will have the unique opportunity to design, build, and deploy
