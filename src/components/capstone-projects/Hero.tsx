@@ -53,8 +53,8 @@ const Hero = () => {
             />
             <Image
               src={'/assets/zha-lab-logo.jpg'}
-              width={350/2}
-              height={240/2}
+              width={300}
+              height={80}
               alt='partner-logo'
             />
           </div>

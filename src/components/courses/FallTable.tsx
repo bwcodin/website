@@ -258,7 +258,7 @@ const FallTable = () => {
                   </div>
                 </td>
               </tr>
-              <tr className="text-2xl font-dm-sans bg-[#EEF0F6]">
+              <tr className="text-2xl font-dm-sans">
                 <td className="px-4 py-7">
                   <p>Columbia Capstone Project</p>
                 </td>

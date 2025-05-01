@@ -9,10 +9,22 @@ const UpcomingProjects = () => {
       </h2>
       <div className="border-l-2 border-l-lighBlue pl-5 flex flex-col gap-y-2">
         <h4 className="font-dm-sans md:text-2xl font-bold text-darkGrey">
+        Medical AI Imaging and Analysis Tool
+        </h4>
+        <p className="md:text-xl font-dm-mono tracking-tighter">
+          <span> Summer/Fall 2025 </span> • <span>Zha Lab at Columbia University</span>
+        </p>
+        <p className="md:text-2xl tracking-tight">
+          Medical research involves vast amounts of data, processing cell images and drawing conclusions with it. 
+          Students in this project will use their medical expertise to provide hypotheses and analysis on cell structure, symptoms and lab experiment techniques. 
+          They will also learn how AI can be used to assist with medical research, and how to build a tool ready for international researchers at Columbia University to use.  {" "}
+        </p>
+      </div>
+      <div className="border-l-2 border-l-lighBlue pl-5 flex flex-col gap-y-2">
+        <h4 className="font-dm-sans md:text-2xl font-bold text-darkGrey">
         Business Dashboard and Analysis Platform
         </h4>
         <p className="md:text-xl font-dm-mono tracking-tighter">
-          <span className="text-advanced">Advanced</span> •{" "}
           <span> Spring 2025 </span> • <span>Silk Tea</span>
         </p>
         <p className="md:text-2xl tracking-tight">
